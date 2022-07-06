@@ -1,0 +1,10 @@
+{
+  "/_app": "pages/_app.js",
+  "/chamados": "pages/chamados.js",
+  "/contato": "pages/contato.js",
+  "/": "pages/index.js",
+  "/sobre-empresa": "pages/sobre-empresa.js",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/404": "pages/404.html"
+}
