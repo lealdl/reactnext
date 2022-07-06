@@ -100,7 +100,7 @@ function Home({ data }) {
 }
 
 export async function getServerSideProps() {
-    const response = await fetch(`http://localhost:8090/site-home/view-home`);
+    const response = await fetch(`http://ch-coder.ddns.net:8090/site-home/view-home`);
     //const response = await fetch(`http://ch-coder.ddns.net:8090/site-home/view-home`);
     const data = await response.json();
     //console.log(data);
