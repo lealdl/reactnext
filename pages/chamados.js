@@ -201,7 +201,7 @@ function Chamado({ data }) {
 }
 
 export async function getServerSideProps() {
-    const response = await fetch(`http://ch-coder.ddns.net:8090/site-msg_chamado/chamado`);
+    const response = await fetch(`http://localhost:8090/site-msg_chamado/chamado`);
     const data = await response.json();
     //console.log(data);
 
